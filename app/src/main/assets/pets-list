@@ -1,0 +1,48 @@
+{
+  "pets": [
+    {
+      "name" : "Rover",
+      "species" : "Dog",
+      "birthYear" : 2016,
+      "photo" : "https://i.imgur.com/sg5JrtK.jpg",
+      "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi"
+    },
+    {
+      "name" : "Harry",
+      "species" : "Cat",
+      "favFoods" : ["wet food", "dry food", "<strong>any</strong> food"],
+      "birthYear" : 2015,
+      "photo" : "https://i.imgur.com/dwqOl3A.jpg",
+      "description" : "At aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+    {
+      "name" : "Mailly",
+      "species" : "Dog",
+      "birthYear" : 2009,
+      "photo" : "https://i.imgur.com/KI7C5LQ.jpg",
+      "description" : "At aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+    {
+      "name" : "Ted",
+      "species" : "Dog",
+      "birthYear" : 2008,
+      "photo" : "https://i.imgur.com/MtlgIH9.jpg",
+      "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi"
+    },
+    {
+      "name" : "Mr. Barksalot",
+      "species" : "Dog",
+      "birthYear" : 2005,
+      "photo" : "https://i.imgur.com/DKT092I.jpg",
+      "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi"
+    },
+    {
+      "name" : "Catnip",
+      "species" : "Cat",
+      "favFoods" : ["tuna", "catnip", "celery"],
+      "birthYear" : 2012,
+      "photo" : "https://i.imgur.com/z8AH0lI.jpg",
+      "description" : "At aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    }
+  ]
+}
