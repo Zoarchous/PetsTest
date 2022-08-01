@@ -11,6 +11,7 @@ import jp.wasabeef.glide.transformations.CropSquareTransformation
 
 class PetsAdapter :
     ListAdapter<Pet, PetsViewHolder>(PetsDiffUtil()) {
+    var onItemClickListener: ((Pet) -> Unit)? = null
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): PetsViewHolder {
         val view = LayoutInflater.from(parent.context).inflate(
             R.layout.pets_item,
@@ -28,6 +29,9 @@ class PetsAdapter :
             .into(holder.petImage)
         holder.petName.text = item.name
         holder.petSpecies.text = item.species
+        holder.view.setOnClickListener {
+            onItemClickListener?.invoke(item)
+        }
     }
 
 }
